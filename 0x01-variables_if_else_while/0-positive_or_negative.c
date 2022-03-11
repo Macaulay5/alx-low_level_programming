@@ -1,10 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
- * main - Takes random num and
- * determines if positive
- *
+ * main - assigns a random number to int n everytime
+ * it executes, and prints it
  *  Return: Always 0 (Success)
  */
 int main(void)
@@ -13,20 +13,11 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	printf("%i ", n);
 	if (n < 0)
-{
-	puts("is negative");
-}
-{
-	puts("is zero");
-}
-
-{
-	puts("is positive");
-}
-{
-}
+		printf("%d is positive\n", n);
+	else if (n == 0)
+		printf("%d is zero\n", n);
+	else if (n < 0)
+		printf("%d is negative\n", n);
 	return (0);
-	}
-
+}
