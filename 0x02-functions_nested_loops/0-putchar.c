@@ -1,11 +1,11 @@
-@@ -1,20 +1,19 @@
 #include "main.h"
+
 /**
  * main - print _putchar
  *
  * Description: print _putchar
  *
- * Return: 0 on (Success)
+ *  Return: 0 on (Success)
  */
 int main(void)
 {
@@ -13,9 +13,10 @@ int main(void)
 
 		int i = 0;
 
-	for(i = 0; i < 8; i++)
-
-	for(i = 0; i < 8; i++)
-{
-	_putchar(text[i]);
+	for (i = 0; i < 8; i++)
+	{
+		_putchar(text[i]);
+	}
+	_putchar('\n');
+	return (0);
 }
