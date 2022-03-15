@@ -1,4 +1,4 @@
-@@ -13,8 +13,7 @@ int main(void)
+@@ -13,8 +13,7 @@ int main(h)
 
 	int i = 0;
 
