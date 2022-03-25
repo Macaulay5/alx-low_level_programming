@@ -8,11 +8,8 @@
  * @src: pointer to source string.
  * @n: number of bytes to be used.
  *
- * 	*
- *
- * 	* Return: pointer to destination string.
- *
- * 	*/
+ * Return: pointer to destination string.
+ */
 
  char *_strncpy(char *dest, char *src, int n)
 
