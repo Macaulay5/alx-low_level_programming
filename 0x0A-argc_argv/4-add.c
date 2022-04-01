@@ -24,6 +24,7 @@ int main(int argc, char *argv[])
 
 			if (isNumber(argv[i]))
 			{
+
 				r += atoi(argv[i]);
 
 			}
@@ -33,6 +34,7 @@ int main(int argc, char *argv[])
 				return (1);
 			}
 		}
+
 		printf("%i\n", r);
 		return (0);
 	}
@@ -58,7 +60,7 @@ int isNumber(char number[])
 	for (; number[i] != 0; i++)
 	{
 		if (!isdigit(number[i]))
-			return (0);
+		return (0);
 	}
 	return (1);
 }
