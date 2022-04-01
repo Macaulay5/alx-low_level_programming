@@ -5,7 +5,6 @@
 #define UNUSED(x) (void)(x)
 int isNumber(char number[]);
 /**
- *
  * main - prints out program name
  * @argc: number of args to be passed
  * @argv: strings passed
